@@ -168,14 +168,28 @@
 	@section Heading 4
 	*/
 		h4{
-			/*@editable*/color:#999999;
-			/*@editable*/font-family:Georgia;
+			/*@editable*/color:#094665;
+			/*@editable*/font-family:Helvetica;
 			/*@editable*/font-size:20px;
 			/*@editable*/font-style:italic;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:150%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:center;
+		}
+	/*
+  @tab Page
+	@section Heading 4
+	*/
+		h5{
+			/*@editable*/color:#094665;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/font-style:normal;
 			/*@editable*/font-weight:normal;
 			/*@editable*/line-height:150%;
 			/*@editable*/letter-spacing:normal;
-			/*@editable*/text-align:left;
+			/*@editable*/text-align:center;
 		}
 	/*
 	@tab Preheader
@@ -267,9 +281,10 @@
 	@section Body Text
 	*/
 		#templateBody,#templateBody p{
-			/*@editable*/color:#606060;
+			/*@editable*/color:#094665;
 			/*@editable*/font-family:Helvetica;
 			/*@editable*/font-size:16px;
+      /*@editable*/font-weight:lighter;
 			/*@editable*/line-height:150%;
 			/*@editable*/text-align:left;
 		}
@@ -298,24 +313,27 @@
 			/*@editable*/padding-bottom:9px;
 		}
     /*
-  	@tab Footer
   	@Column Section
   	*/
-  	#column1{
-  		/*@editable*/background-color:#094665;
+  	#column{
+  		/*@editable*/background-color:#FFFFFF;
   		/*@editable*/border:0;
-  		/*@editable*/padding:18px;
+      /*@editable*/height:auto;
+      /*@editable*/max-width:188px;
+  		/*@editable*/padding: 19px;
   	}
-    #column2{
-  		/*@editable*/background-color:#000000;
-  		/*@editable*/border:0;
-  		/*@editable*/padding:18px;
-  	}
-    #column3{
-      /*@editable*/background-color:#F7B347;
+    #column, #column p{
+      /*@editable*/color:#094665;
+      /*@editable*/font-weight:lighter;
       /*@editable*/border:0;
-      /*@editable*/padding:18px;
+      /*@editable*/height:auto;
+      /*@editable*/max-width:188px;
+      /*@editable*/padding-top:0px;
+      /*@editable*/padding-bottom:14px;
+      /*@editable*/padding-Left:10px;
+
     }
+
     /*
 	@tab Footer
 	@section Social Bar Style
@@ -626,42 +644,44 @@
                                   <!-- <h1>&nbsp;</h1> -->
                                   <br>
                                   <h2>New Remote Classes!</h2>
-                                    <!-- <h3>Heading 3</h3>
-                                    <h4>Heading 4</h4> -->
                                     <p><strong>State Of The Art Remote Technology</strong><br>Austin Coding Academy uses state of the art, remote technology to allow students from anywhere in the world to experience class as if they were present in person. In addition to live lectures, Q&A’s and project support, our remote students can attend remote office hours to receive one-on-one tutoring. They can interact with other students, and the instructor can even take over their computer to help them out of a jam. ACA Remote is a great option for someone who does not live in Austin.</p>
                                     <!--<strong>Edit Design</strong> at the bottom of this screen. After you create a look and feel you love, click inside this box to start adding your own content.</p>
                                     <p>Any time you create a layout here, you'll be able to find it in the <strong>Saved Templates</strong> tab on the <strong>Templates</strong> step. Then, you can reuse it as-is or quickly create new, similar versions for different types of messages.</p>
                                     <p>Our <a href="https://templates.mailchimp.com/">Email Design Reference</a> can help you add content blocks to this template or show you how to design and code your own from scratch.</p>-->
                                 </div>
+                                <br>
                                 <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                     <tr>
-                                        <td valign="top" id="column1">
-                                            <div mc:edit="column1">
-                                                <h4>Heading 4</h4>
-                                                <!-- <a href="https://twitter.com/AustinCoding" class="utilityLink">Follow on Twitter</a><span class="mobileHide"> &nbsp; | &nbsp; </span><a href="https://www.facebook.com/AustinCodingAcademy" class="utilityLink">Friend on Facebook</a>
-                                                <span class="mobileHide"> &nbsp; | &nbsp; </span><a href="*|FORWARD|*" class="utilityLink">Forward to a Friend</a> -->
+                                        <td valign="top" id="column">
+                                            <div mc:edit="column">
+                                                <h4>101 Intro to Web</h4>
+                                                <h5>Beginner</h5>
+                                                <hr>
+                                                <p>Learn HTML, CSS, Javascript and jQuery to build professional quality websites and basic javascript apps. Build a portfolio to show potential employers.</p>
                                             </div>
                                         </td>
-                                        <td valign="top" id="column2">
-                                            <div mc:edit="column2">
-                                              <h4>Heading 4</h4>
-                                                <!-- <a href="https://twitter.com/AustinCoding" class="utilityLink">Follow on Twitter</a><span class="mobileHide"> &nbsp; | &nbsp; </span><a href="https://www.facebook.com/AustinCodingAcademy" class="utilityLink">Friend on Facebook</a>
-                                                <span class="mobileHide"> &nbsp; | &nbsp; </span><a href="*|FORWARD|*" class="utilityLink">Forward to a Friend</a> -->
+                                        <td valign="top" id="column">
+                                            <div mc:edit="column">
+                                              <h4>221 Full Stack </h4>
+                                              <h5>Intermediate</h5>
+                                              <hr>
+                                              <p>Take your skills to the next level by learning Visual Studio and start building apps with the C# language.</p>
                                             </div>
                                         </td>
-                                        <td valign="top" id="column3">
-                                            <div mc:edit="column3">
-                                              <h4>Heading 4</h4>
-                                                <!-- <a href="https://twitter.com/AustinCoding" class="utilityLink">Follow on Twitter</a><span class="mobileHide"> &nbsp; | &nbsp; </span><a href="https://www.facebook.com/AustinCodingAcademy" class="utilityLink">Friend on Facebook</a>
-                                                <span class="mobileHide"> &nbsp; | &nbsp; </span><a href="*|FORWARD|*" class="utilityLink">Forward to a Friend</a> -->
+                                        <td valign="top" id="column">
+                                            <div mc:edit="column">
+                                              <h4>331 Full Stack</h4>
+                                              <h5>Advanced</h5>
+                                              <hr>
+                                              <p>Complete the track adn build full stack applications with the .Net framework. By the end of this course, you are ready for a job as a junior developer.</P>
                                             </div>
                                         </td>
                                     </tr>
                                 <table>
                                   <tr>
+                                    <!-- <td>Word</td>
                                     <td>Word</td>
-                                    <td>Word</td>
-                                    <td>Word</td>
+                                    <td>Word</td> -->
                                   </tr>
                                 </table>
 
