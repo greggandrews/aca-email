@@ -335,10 +335,31 @@
     }
 
     /*
-	@tab Footer
-	@section Social Bar Style
-	*/
-		#socialBar{
+  @tab Footer
+  @section Social Bar Style
+  */
+    #learnMore {
+  		/*@editable*/background-color:#F7B347;
+  		/*@editable*/border:0;
+      /*@editable*/border-radius:3px;
+      /*@editable*/height:auto;
+      /*@editable*/max-width:564px;
+  		/*@editable*/padding: 10px;
+    }
+
+  #learnMore, h5{
+    /*@editable*/color:#FFFFFF;
+    /*@editable*/font-family:Helvetica;
+    /*@editable*/font-size:24px;
+    /*@editable*/line-height:50%;
+    /*@editable*/text-align:center;
+    /*@editable*/font-weight:normal;
+    /*@editable*/text-decoration:none;
+  }
+
+
+
+	#socialBar {
 			/*@editable*/background-color:#F7B347;
 			/*@editable*/border:0;
 			/*@editable*/padding:18px;
@@ -347,7 +368,7 @@
 	@tab Footer
 	@section Social Bar Text
 	*/
-		#socialBar,#socialBar p{
+		#socialBar,#socialBar p {
 			/*@editable*/color:#094665;
 			/*@editable*/font-family:Helvetica;
 			/*@editable*/font-size:12px;
@@ -355,6 +376,7 @@
 			/*@editable*/text-align:center;
 		}
 	/*
+
 	@tab Footer
 	@section Social Bar Link
 	*/
@@ -679,9 +701,11 @@
                                     </tr>
                                 <table>
                                   <tr>
-                                    <!-- <td>Word</td>
-                                    <td>Word</td>
-                                    <td>Word</td> -->
+                                    <td valign="top" id="learnMore">
+                                        <div mc:edit="learn_more">
+                                            <a href="https://austincodingacademy.com/remote/" class="utilityLink"><h5>Click Here To Learn More<h5></a>
+                                        </div>
+                                    </td>
                                   </tr>
                                 </table>
 
