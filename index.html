@@ -339,15 +339,16 @@
   @section Social Bar Style
   */
 
-
-
   #learnMore {
       /*@editable*/background-color:#F7B347;
       /*@editable*/border:0;
       /*@editable*/border-radius:3px;
       /*@editable*/height:auto;
-      /*@editable*/max-width:188px;
       /*@editable*/padding: 10px;
+      /*@editable*/width: 300px;
+      /*@editable*/margin: auto;
+
+
 
   }
 
@@ -362,7 +363,6 @@
   }
 
 	#socialBar {
-			/*@editable*/background-color:#F7B347;
 			/*@editable*/border:0;
 			/*@editable*/padding:18px;
       /*@editable*/border-radius:3px;
@@ -374,7 +374,7 @@
 		#socialBar,#socialBar p {
 			/*@editable*/color:#094665;
 			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:14px;
+			/*@editable*/font-size:16px;
 			/*@editable*/line-height:150%;
 			/*@editable*/text-align:center;
 		}
@@ -384,7 +384,7 @@
 	*/
 		#socialBar a,#socialBar p a{
 			/*@editable*/color:#094665;
-			/*@editable*/font-weight:normal;
+			/*@editable*/font-weight:bold;
 			/*@editable*/text-decoration:underline;
 		}
 	/*
@@ -394,7 +394,7 @@
 		#footerContent,#footerContent p{
 			/*@editable*/color:#656565;
 			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:12px;
+			/*@editable*/font-size:14px;
 			/*@editable*/line-height:150%;
 			/*@editable*/text-align:center;
 		}
@@ -424,7 +424,7 @@
 		#utilityBar,#utilityBar p{
 			/*@editable*/color:#656565;
 			/*@editable*/font-family:Helvetica;
-			/*@editable*/font-size:12px;
+			/*@editable*/font-size:14px;
 			/*@editable*/line-height:150%;
 			/*@editable*/text-align:center;
 		}
@@ -705,12 +705,23 @@
                                             </div>
                                         </td>
                                     </tr>
-                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <!-- <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:260px;">
                                   <tr>
+
                                     <td valign="top" id="learnMore">
                                         <div mc:edit="learn_more">
-                                          <<div style="width:500px;height:100px;border:1px solid #000;">This is a rectangle!</div>
-                                            <a href="https://austincodingacademy.com/remote/" class="utilityLink"><h5>Click Here To Learn More<h5></a>
+                                            <a href="https://austincodingacademy.com/remote/" class="utilityLink" ><h5>Click Here To Learn More<h5></a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                  </tr>
+                                </table> -->
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:260px;">
+                                  <tr>
+
+                                    <div id="learnMore">
+                                        <div mc:edit="learn_more">
+                                            <a href="https://austincodingacademy.com/remote/" class="utilityLink" ><h5>Click Here To Learn More<h5></a>
                                             </div>
                                         </div>
                                     </td>
@@ -743,7 +754,6 @@
 
                                                 <!-- *|IFNOT:ARCHIVE_PAGE|* -->
 
-                                                <br>
                                                 <strong>Website</strong>
                                                 <br>
                                                 <a href="https://austincodingacademy.com">austincodingacademy.com</a>
